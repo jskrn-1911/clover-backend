@@ -1,0 +1,17 @@
+{
+  "name": "framer-clover-backend",
+  "version": "1.0.0",
+  "description": "Vercel backend for Framer + Clover payment integration",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "keywords": ["framer", "clover", "payments", "coupons"],
+  "author": "Your Name",
+  "license": "MIT"
+}
